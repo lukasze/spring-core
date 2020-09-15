@@ -8,11 +8,13 @@ import org.springframework.stereotype.Component;
 public class RelationalBean {
 
 
-    @Value("#{(values.get_12345()[0] + values.get_12345()[1]) < (values.get_12345()[2] + values.get_12345()[3])}") // true
+    @Value("#{(values.get_12345()[0] + values.get_12345()[1]) < (values.get_12345()[2] + values.get_12345()[3])}")
     private boolean _1plus2_less_3pluss4;
 
     public boolean is_1plus2_less_3pluss4() {
         return _1plus2_less_3pluss4;
     }
+
+    // TODO 4 uzyj pozostałych wyrażeń (lt, gt, etc.), napisz dla nich testy
 
 }

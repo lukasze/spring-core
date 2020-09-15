@@ -14,6 +14,8 @@ public class ArithmeticBean {
     public int getSum() {
         return sum;
     }
+
+    // TODO 3 uzyj pozostałych wyrażeń (+, *, etc.), napisz dla nich testy
 }
 
 

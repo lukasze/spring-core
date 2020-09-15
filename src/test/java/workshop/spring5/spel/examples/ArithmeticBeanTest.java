@@ -20,3 +20,7 @@ public class ArithmeticBeanTest {
         assertEquals(101, arithmeticBean.getSum());
     }
 }
+
+// TODO 1 zapoznaj się z projektem
+
+// TODO 2 uruchom testy - jak trzeba zmodyfikować aplikację, żeby testy przeszły?

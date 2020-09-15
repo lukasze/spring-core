@@ -6,7 +6,8 @@ import org.springframework.stereotype.Component;
 import java.util.Arrays;
 import java.util.List;
 
-@Component("values")
+@Component
+@Qualifier("values")
 public class ValuesBean {
     private List<Integer> _12345 = Arrays.asList(1,2,3,4,5);
     private int aValue = 100;
